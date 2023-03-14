@@ -1,0 +1,127 @@
+/* Custom CSS code goes here */
+
+body {
+    padding-top: 10px;
+  }
+  
+  .viewport-height {
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #home {
+    background-image: url('images/SilverSteel.jpg');
+    color: white;
+  }
+  
+  
+  #about {
+    background-image: url('images/LizFeather.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;  
+  }
+  
+  #about .container {
+    max-width: 500px;
+    margin: 200px 100px 300px 900px;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  #about .container h2, #about .container p {
+    float: right;
+    margin-top: 30px;
+  }
+  
+  #about .col-md-6 h3 {
+    display: block;
+    margin-left: 20px;
+  }
+  
+  #about .col-md-6 ul {
+    float: right;
+    padding-right: 0px;
+    margin-top: 10px;
+  }
+  
+  
+  .fa-github,
+  .fa-linkedin {
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    text-align: center;
+    bottom: 200px; /* adjust as needed */
+    
+    right: 20px;
+  }
+  
+
+
+
+  
+  
+  #portfolio {
+    background-image: url('images/SilverSteel.jpg');
+  }
+
+
+  
+  
+  #contact {
+    background-image: url('images/GoldBackground.jpg');
+    
+  }
+  
+  .navbar {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar.navbar-dark.bg-dark {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .navbar-collapse {
+    margin-right: 10px;
+  }
+  
+  .navbar-brand {
+    padding-left: 10px;
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .viewport-height {
+      min-height: 600px;
+    }
+  }
+  
+  /* Custom CSS code goes here */
+  
+  
+  .video-wrapper {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+  }
+  
